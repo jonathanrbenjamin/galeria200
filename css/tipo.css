@@ -105,26 +105,3 @@ footer {
     padding: 80px;
 }
 
-
-    @media (max-width: 425px){
-      .card {
-        
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        
-
-      }
- 
-     }
-
-    @media (max-width: 768px){
-      .div.card {
-
-        display: flex;
-        flex-direction: column;
-        width: 100%;    
-
-      }
-   
-    }
