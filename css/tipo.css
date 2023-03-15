@@ -20,8 +20,8 @@ min-width: 60vh;
 padding: 50px;
 }
 
-.produto-imagem {
-  max-width: 1500px;
+.produtos {
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   display: block;
@@ -110,11 +110,20 @@ footer {
 }
 
 @media screen and (max-width: 425px){
-  .produto-imagem {
-      width: 00%;
-      
+  .produtos {
+        flex-direction: column;
+        display: flex;    
+    }
+  
+    .produto-imagem{
 
-      
-            
-  }
+    height: 300px;
+    width: 150%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    }
 }
+
+
+   
