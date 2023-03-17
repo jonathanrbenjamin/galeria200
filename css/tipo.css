@@ -120,6 +120,7 @@ footer {
   header {
   background-color: #eb1ccc;
   border-bottom: 2px solid #5d5d5d;
+  font-size: 20px;
   }
 
   .container {
@@ -159,6 +160,7 @@ footer {
   background-color: #eb1ccc;
   border-top: #95989a;
   text-align: center;
+  padding: 40px;
   }
 }
 
