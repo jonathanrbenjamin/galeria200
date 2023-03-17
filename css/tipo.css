@@ -23,7 +23,7 @@ header {
 }
 
 .products-container {
-  max-width: 1700px;
+  max-width: 1500px;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -52,23 +52,23 @@ header {
 }
 
 #img-2 {
-  background-image: url('../img/tenis2.jpg');
+  background-image: url('../img/digitacao.jpg');
 }
 
 #img-3 {
-  background-image: url('../img/tenis3.jpg');
+  background-image: url('../img/encadernacao.jpg');
 }
 
 #img-4 {
-  background-image: url('../img/tenis4.jpg');
+  background-image: url('../img/foto.webp');
 }
 
 #img-5 {
-  background-image: url('../img/tenis5.jpg');
+  background-image: url('../img/plastificacao.png');
 }
 
 #img-6 {
-  background-image: url('../img/tenis6.jpg');
+  background-image: url('../img/cartucho.jpg');
 }
 
 h3 {
