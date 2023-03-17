@@ -159,7 +159,6 @@ footer {
   background-color: #eb1ccc;
   border-top: #95989a;
   text-align: center;
-  padding-bottom: 20px;
   }
 }
 
@@ -167,8 +166,6 @@ footer {
 @media screen and (max-width: 768px){
   
   header {
-  padding: 20px;
-  font-size: 10px;
   background-color: #eb1ccc;
   border-bottom: 2px solid #5d5d5d;
   
