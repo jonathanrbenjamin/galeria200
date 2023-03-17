@@ -121,6 +121,9 @@ footer {
 
 @media screen and (max-width: 425px){
 
+  header {
+    font-size: 1.2rem;
+  }
   .products-container {
   flex-direction: column;
   display: flex;
