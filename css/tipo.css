@@ -115,7 +115,7 @@ footer {
   padding: 70px;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 480px){
   
   header {
   background-color: #eb1ccc;
@@ -159,7 +159,6 @@ footer {
   background-color: #eb1ccc;
   border-top: #95989a;
   text-align: center;
-  padding: 30px;
   }
 }
 
@@ -213,6 +212,6 @@ footer {
   background-color: #eb1ccc;
   border-top: #95989a;
   text-align: center;
-  padding: 30px;
+  
   }
 }
