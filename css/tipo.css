@@ -27,8 +27,7 @@ header {
   width: 100%;
   margin: 0 auto;
   display: flex;
-  display: block;
-  justify-content: space-around;
+  justify-content: center;
 
 }
 
