@@ -15,13 +15,30 @@
     
   }
   
+  body {
+    background-image: url('../img/marca\ dgua.png');
+    
+  }
   /* GRID DE PRODUTOS */
   .container {
-    background-color: aquamarine;
+    
     min-height: 60vh;
     padding: 50px;
     background-size: cover;
     
+    
+  }
+
+  h2 {
+    margin-bottom: 10px;
+    color: rgb(57, 219, 57);
+    border-left: 5px solid rgba(11, 136, 78, 0.808);
+    padding: 7px;
+    
+  }
+
+  p{
+    color: white;
   }
   
   .products-container {
@@ -31,6 +48,7 @@
     display: flex;
     display: block;
     justify-content: center;
+    
   
   }
   
@@ -39,6 +57,7 @@
     display: inline-block;
     margin: 1% 1%;
     padding: 15px;
+    
   }
   
   .product-image {
@@ -47,6 +66,7 @@
     margin-bottom: 10px;
     background-position: center;
     background-size: cover;
+    
   }
   
   #img-1 {
@@ -73,13 +93,7 @@
     background-image: url('../img/Loja\ Maisa/06.png');
   }
   
-  h2 {
-    margin-bottom: 10px;
-    color: green;
-    border-left: 5px solid rgb(10, 10, 133);
-    padding: 7px;
-    
-  }
+
   
   .card p {
     margin-bottom: 10px;
@@ -125,9 +139,7 @@
   }
  
 
-  p{
-    color: black;
-  }
+ 
   .btn:hover{
     background-color: #95989a;
   }
@@ -155,17 +167,14 @@
     display: flex;
     }
   
-    .card {
-    width: 100%;
-    display: inline-block;
+    a {
+           
+      font-size: 2rem;
+                       
     }
 
-    a {
-            
-      font-size: 2em;
-      width: 100%;
+    .zap {
       
-                   
     }
      
   
