@@ -143,6 +143,10 @@ footer {
       width: 100%;
       
     }
+
+    footer{
+      padding: 10px;
+    }
 }
 
 
