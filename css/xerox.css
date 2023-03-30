@@ -189,5 +189,9 @@
     width: 100%;
     display: inline-block;
     }
+    a {
+      font-size: 2em;
+      width: 100%;
+    }
      
   }
