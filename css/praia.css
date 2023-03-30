@@ -14,13 +14,10 @@
     font-size: 30px;
     
   }
-
-  background-color: var(--text-secondary);
-    color: var(--primary);
     
   
   body {
-    background-image: url('../img/marca\ dgua.png');
+    background-image: url('../img/Loja\ Maisa/marcadgua.png');
     
   }
   /* GRID DE PRODUTOS */
