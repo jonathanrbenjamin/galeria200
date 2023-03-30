@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+  }
+  
+  /* CABEÇALHO */
+  header {
+    background-color: green;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    font-size: 3rem;
+    
+  }
+  
+  /* GRID DE PRODUTOS */
+  .container {
+    background-color: aquamarine;
+    min-height: 60vh;
+    padding: 50px;
+    background-size: cover;
+    
+  }
+  
+  .products-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    display: block;
+    justify-content: center;
+  
+  }
+  
+  .card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+  }
+  
+  .product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #img-1 {
+    background-image: url('../img/Loja\ Maisa/01.png');
+  }
+  
+  #img-2 {
+    background-image: url('../img/Loja\ Maisa/02.png');
+  }
+  
+  #img-3 {
+    background-image: url('../img/Loja\ Maisa/03.png');
+  }
+  
+  #img-4 {
+    background-image: url('../img/Loja\ Maisa/04.png');
+  }
+  
+  #img-5 {
+    background-image: url('../img/Loja\ Maisa/05.png');
+  }
+  
+  #img-6 {
+    background-image: url('../img/Loja\ Maisa/06.png');
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: green;
+    border-left: 5px solid rgb(10, 10, 133);
+    padding: 7px;
+    
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+   
+
+  a {
+       
+    text-decoration: none;
+    font-size: 40px;
+    width: 30%;
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding-top: 10px;
+    
+    border-radius: 10px;
+    transition: .5s;   
+    display: inline-block;
+            
+  }
+
+  a:hover {
+    background-color: #13a513af;
+  }
+
+  .zap {
+    text-align: center;
+  }
+
+  #fone {
+       
+    position: relative;
+    top: -10px;
+    
+     
+    
+  }
+ 
+
+  p{
+    color: black;
+  }
+  .btn:hover{
+    background-color: #95989a;
+  }
+  
+  /* RODAPÉ */
+  footer {
+    background-color: green;
+    
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .text {
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 425px){
+  
+    header {
+      font-size: 1.2rem;
+    }
+    .products-container {
+    flex-direction: column;
+    display: flex;
+    }
+  
+    .card {
+    width: 100%;
+    display: inline-block;
+    }
+
+    a {
+            
+      font-size: 2em;
+      width: 100%;
+      
+                   
+    }
+     
+  
+  }
+  
+  
+  @media screen and (max-width: 768px){
+     
+   .products-container {
+    flex-direction: column;
+    display: flex;
+    }
+  
+    .card {
+    width: 100%;
+    display: inline-block;
+    
+    }
+
+    a {
+       
+      
+     
+      width: 100%;
+      
+      background-color: green;
+      
+      
+      
+        
+      
+              
+    }
+
+    
+     
+  }

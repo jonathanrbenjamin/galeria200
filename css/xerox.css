@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+  }
+  
+  /* CABEÇALHO */
+  header {
+    background-color: #1c8eeb;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    font-size: 25px;
+    
+  }
+  
+  /* GRID DE PRODUTOS */
+  .container {
+    background-color: #dee2e9;
+    min-height: 60vh;
+    padding: 50px;
+  }
+  
+  .products-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    display: block;
+    justify-content: center;
+  
+  }
+  
+  .card {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+  }
+  
+  .product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #img-1 {
+    background-image: url('../img/Loja\ Lidiane/foto1.jpg');
+  }
+  
+  #img-2 {
+    background-image: url('../img/Loja\ Lidiane/digitacao.jpg');
+  }
+  
+  #img-3 {
+    background-image: url('../img/Loja\ Lidiane/encadernacao.jpg');
+  }
+  
+  #img-4 {
+    background-image: url('../img/Loja\ Lidiane/foto3x4.jpg');
+  }
+  
+  #img-5 {
+    background-image: url('../img/Loja\ Lidiane/plastificacao.png');
+  }
+  
+  #img-6 {
+    background-image: url('../img/Loja\ Lidiane/cartucho.jpg');
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: #1c8eeb;
+    border-left: 5px solid rgb(10, 10, 133);
+    padding: 7px;
+    
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+   
+
+  a {
+       
+    text-decoration: none;
+    font-size: 40px;
+    width: 30%;
+    text-align: center;
+    background-color: #1c8eeb;
+    color: white;
+    padding-top: 10px;
+    
+    border-radius: 10px;
+    transition: .5s;   
+    display: inline-block;
+            
+  }
+
+  a:hover {
+    background-color: #13a513af;
+  }
+
+  .zap {
+    text-align: center;
+  }
+
+  #fone {
+       
+    position: relative;
+    top: -10px;
+    
+    
+   
+    
+  }
+ 
+
+
+  p{
+    color: #000;
+  }
+  .btn:hover{
+    background-color: #95989a;
+  }
+  
+  /* RODAPÉ */
+  footer {
+    background-color: #1c8eeb;
+    
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .text {
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 425px){
+  
+    header {
+      font-size: 1.2rem;
+    }
+    .products-container {
+    flex-direction: column;
+    display: flex;
+    }
+  
+    .card {
+    width: 100%;
+    display: inline-block;
+    }
+     
+  
+  }
+  
+  
+  @media screen and (max-width: 768px){
+     
+   .products-container {
+    flex-direction: column;
+    display: flex;
+    }
+  
+    .card {
+    width: 100%;
+    display: inline-block;
+    
+    }
+     
+  }
