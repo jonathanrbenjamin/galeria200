@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Helvetica;
+  font-family: "Montserrat";
 }
 
 /* CABEÇALHO */
@@ -37,6 +37,7 @@ header {
   display: inline-block;
   margin: 1% 1%;
   padding: 15px;
+  
 }
 
 .product-image {
@@ -45,14 +46,18 @@ header {
   margin-bottom: 10px;
   background-position: center;
   background-size: cover;
+  border-radius: 5px;
+  border: 1px solid #1c8eeb;
+  
+  
 }
 
 #img-1 {
-  background-image: url('../img/xerox.jpg');
+  background-image: url('../img/foto1.jpg');
 }
 
 #img-2 {
-  background-image: url('../img/fundo.jpg');
+  background-image: url('../img/Loja\ Maisa/fundo.jpg');
 }
 
 #img-3 {

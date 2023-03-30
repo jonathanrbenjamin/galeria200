@@ -58,10 +58,12 @@
     margin-bottom: 10px;
     background-position: center;
     background-size: cover;
+    border-radius: 5px;
+    border: 1px solid black;
   }
   
   #img-1 {
-    background-image: url('../img/Loja\ Lidiane/foto1.jpg');
+    background-image: url('../img/Loja\ Lidiane/brother.jpg');
   }
   
   #img-2 {
