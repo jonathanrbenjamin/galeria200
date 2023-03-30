@@ -117,13 +117,9 @@
        
     position: relative;
     top: -10px;
-    
-    
-   
-    
+       
   }
  
-
 
   p{
     color: #000;
@@ -164,7 +160,7 @@
       padding: 10px;
       }
 
-      footer {
+       footer {
         padding: 10px;
         font-size: .5em;
       }
