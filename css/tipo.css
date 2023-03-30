@@ -129,12 +129,12 @@ footer {
   display: flex;
   }
 
-  .card {
-  width: 100%;
-  display: inline-block;
-  }
-   
-
+  .container {
+    padding: 10px;
+    }
+   footer {
+    padding: 20px;
+   }
 }
 
 

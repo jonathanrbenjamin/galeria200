@@ -155,16 +155,17 @@
     display: flex;
     }
   
-      a {
-           
-      font-size: 1rem;
-                       
+    a {
+      font-size: 2em;
+      width: 100%;
     }
+
+    .container {
+      padding: 10px;
+      }
      
-  
   }
-  
-  
+    
   @media screen and (max-width: 768px){
      
    .products-container {
@@ -175,7 +176,6 @@
     .card {
     width: 100%;
     display: inline-block;
-    
     }
      
   }
