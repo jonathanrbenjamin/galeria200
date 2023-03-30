@@ -146,13 +146,10 @@
        
     position: relative;
     top: -10px;
-    
-     
+      
     
   }
- 
-
- 
+  
   .btn:hover{
     background-color: #95989a;
   }
@@ -187,6 +184,12 @@
 
     .container {
     padding: 10px;
+    }
+
+    .btn {
+      padding: 1px;
+      width: 100%;
+      
     }
    }
     
