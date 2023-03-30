@@ -163,6 +163,11 @@
     .container {
       padding: 10px;
       }
+
+      footer {
+        padding: 10px;
+        font-size: .5em;
+      }
      
   }
     
