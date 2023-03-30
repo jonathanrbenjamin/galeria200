@@ -125,16 +125,24 @@ footer {
     font-size: 1.2rem;
   }
   .products-container {
-  flex-direction: column;
-  display: flex;
-  }
+    flex-direction: column;
+    display: flex;
+    }
+  
+    a {
+      font-size: 2em;
+      width: 100%;
+    }
 
-  .container {
+    .container {
     padding: 10px;
     }
-   footer {
-    padding: 20px;
-   }
+
+    .btn {
+      padding: 1px;
+      width: 100%;
+      
+    }
 }
 
 
