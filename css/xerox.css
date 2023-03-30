@@ -155,9 +155,10 @@
     display: flex;
     }
   
-    .card {
-    width: 100%;
-    display: inline-block;
+      a {
+           
+      font-size: 1rem;
+                       
     }
      
   

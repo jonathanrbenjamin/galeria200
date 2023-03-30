@@ -169,14 +169,20 @@
   
     a {
            
-      font-size: 2rem;
+      font-size: 2em;
+      width: 100%;
                        
     }
 
-    .zap {
+    .container {
+    
+      padding: 10px;
+      
+      
       
     }
-     
+
+       
   
   }
   
@@ -194,21 +200,6 @@
     
     }
 
-    a {
-       
-      
-     
-      width: 100%;
-      
-      background-color: green;
-      
-      
-      
-        
-      
-              
-    }
-
-    
+   
      
   }
