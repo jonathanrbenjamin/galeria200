@@ -20,10 +20,10 @@
     padding: 40px;
     text-align: center;
     font-size: 30px;
-    
+       
   }
 
-  header p {
+   header p {
     color: var(--text-color);
     font-size: 20px;
   }
