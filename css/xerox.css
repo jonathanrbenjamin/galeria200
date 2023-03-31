@@ -23,6 +23,14 @@
        
   }
 
+  .logo img {
+    position: absolute;
+    max-width: 150px;
+    top: 15px;
+    left: 20px;
+    
+  }
+
    header p {
     color: var(--text-color);
     font-size: 20px;
@@ -160,6 +168,14 @@
       font-size: 1rem;
     }
 
+    .logo img {
+      position: absolute;
+      max-width: 40px;
+      top: 40px;
+      left: 5px;
+      
+    }
+
     header p {
       font-size: 1em;
     }
@@ -186,6 +202,13 @@
     
   @media screen and (max-width: 768px){
      
+    .logo img {
+      position: absolute;
+      max-width: 100px;
+      top: 30px;
+      left: 10px;
+      
+    }
    .products-container {
     flex-direction: column;
     display: flex;
