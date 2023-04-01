@@ -229,10 +229,7 @@ footer {
     display: flex;
     }
 
-    body {
-      max-width: 50%;
-    }
-  
+ 
     a {
       font-size: 2em;
       width: 100%;
@@ -244,15 +241,18 @@ footer {
                        
     }
     
-
-
     .slide{
       width: 700px;
-              
-      
+                    
     }
    
-     
+    .slider {
+      margin: 0 auto;
+      width: 400px;
+      height: 200px;
+      overflow: hidden;
+      
+    }
 
     .btn {
       padding: 1px;
