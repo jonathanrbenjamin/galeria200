@@ -224,6 +224,12 @@ footer {
     margin-bottom: 1rem;
   }
 
+  body {
+    width: 100vh;
+    overflow-x: hidden;
+    
+  }
+
   .products-container {
     flex-direction: column;
     display: flex;
@@ -237,10 +243,10 @@ footer {
      .container {
       padding: 1px;
       padding-top: 25px;
-              
-            
+                       
     }
     
+
 
     .slide{
       width: 700px;
