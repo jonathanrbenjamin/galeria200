@@ -235,21 +235,15 @@ footer {
     }
 
      .container {
-      padding: 0;
-      padding-top: 20px;
+      padding: 1px;
       
-    
+            
     }
 
     .slider {
-      width: 300px;
+      max-width: 395px;
     }
 
-    .slide img {
-      width: 100%;
-    }
-
-   
     .btn {
       padding: 1px;
       width: 100%;
@@ -260,7 +254,6 @@ footer {
       padding: 10px;
       font-size: .5em;
     }
-
     
   
     }
