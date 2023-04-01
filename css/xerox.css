@@ -170,9 +170,10 @@
 
     .logo img {
       position: absolute;
-      max-width: 40px;
-      top: 40px;
-      left: 5px;
+      width: 50px;
+      top: 10px;
+      
+      
       
     }
 

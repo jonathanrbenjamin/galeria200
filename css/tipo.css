@@ -235,8 +235,18 @@ footer {
     }
 
      .container {
-    margin-top: -9em;
+      padding: 0;
+      padding-top: 20px;
+      
     
+    }
+
+    .slider {
+      width: 300px;
+    }
+
+    .slide img {
+      width: 100%;
     }
 
    
@@ -251,9 +261,7 @@ footer {
       font-size: .5em;
     }
 
-    .slide img {
-      width: 100%;
-    }
+    
   
     }
 
