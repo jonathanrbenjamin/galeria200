@@ -176,6 +176,7 @@
     .logo img {
       position: absolute;
       width: 10px;
+      left: 0;
       top: 35px;          
     }
 
@@ -225,4 +226,11 @@
       width: 100%;
     }
      
+  }
+
+  @media screen and (max-width: 1024px){
+    a {
+      font-size: 2em;
+      width: 40%;
+    }
   }
