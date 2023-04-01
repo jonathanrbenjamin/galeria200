@@ -163,12 +163,15 @@
   }
   
   @media screen and (max-width: 425px){
-  
-  
+    
+    h1 {
+      font-size: 1em;
+    }
+    
     .logo img {
       position: absolute;
-      width: 70px;
-      top: 10px;          
+      width: 50px;
+      top: 45px;          
     }
 
     .products-container {
@@ -193,17 +196,9 @@
   }
     
   @media screen and (max-width: 768px){
-     h1 {
-      font-size: 50px;
-     }
-
-    .logo img {
-      position: absolute;
-      width: 90px;
-      top: 30px;
-      left: 40px;
-      
-    }
+ 
+     
+    
    .products-container {
     flex-direction: column;
     display: flex;
