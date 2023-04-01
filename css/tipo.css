@@ -228,6 +228,10 @@ footer {
     flex-direction: column;
     display: flex;
     }
+
+    body {
+      max-width: 50%;
+    }
   
     a {
       font-size: 2em;
