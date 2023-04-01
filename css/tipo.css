@@ -224,13 +224,6 @@ footer {
     margin-bottom: 1rem;
   }
 
-  body {
-    width: 70vh;
-    overflow-x: hidden;
-    
-    
-  }
-
   .products-container {
     flex-direction: column;
     display: flex;
