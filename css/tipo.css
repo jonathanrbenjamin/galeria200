@@ -236,14 +236,16 @@ footer {
 
      .container {
       padding: 1px;
+      padding-top: 20px;
       
             
     }
 
     .slider {
-      max-width: 395px;
+      width: 300px;
+           
+      
     }
-
     .btn {
       padding: 1px;
       width: 100%;
