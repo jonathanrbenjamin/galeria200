@@ -162,16 +162,21 @@
     color: #fff;
   }
   
-  @media screen and (max-width: 425px){
+  @media screen and (max-width: 320px){
     
-    h1 {
-      font-size: 1em;
+    header {
+      font-size: 20px;
+    }
+
+    header p {
+      font-size: 10px;
+
     }
     
     .logo img {
       position: absolute;
-      width: 20px;
-      top: 45px;          
+      width: 10px;
+      top: 35px;          
     }
 
     .products-container {
