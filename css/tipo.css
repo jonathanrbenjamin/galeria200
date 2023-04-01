@@ -236,16 +236,20 @@ footer {
 
      .container {
       padding: 1px;
-      padding-top: 20px;
-      
+      padding-top: 25px;
+              
             
     }
+    
 
-    .slider {
-      width: 300rem;
-           
+    .slide{
+      width: 700px;
+              
       
     }
+   
+     
+
     .btn {
       padding: 1px;
       width: 100%;
