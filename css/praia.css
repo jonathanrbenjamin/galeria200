@@ -170,7 +170,7 @@
     color: #fff;
   }
   
-  @media screen and (max-width: 425px){
+  @media screen and (max-width: 450px){
   
     header {
       font-size: 1.2rem;
