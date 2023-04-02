@@ -17,8 +17,8 @@ header {
 
 .logo img {
   position: absolute;
-  max-width: 15%;
-  top: 30px;
+  max-width: 12%;
+  top: -15px;
   left: 20px;
 }
 
@@ -183,7 +183,7 @@ footer {
   color: #fff;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
 
   header {
     font-size: 1.2rem;
@@ -191,8 +191,8 @@ footer {
 
   .logo img {
     position: absolute;
-    max-width: 60px;
-    top: 30px;
+    top: 25px;
+        
     
   }
 
