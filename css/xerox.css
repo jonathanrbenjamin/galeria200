@@ -1,235 +1,237 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Montserrat";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+:root {
+  --primary: #eb1ccc;
+  --secondary: #95989a;
+  --text-color: #fff;
+  --text-secondary: #000;
+  --text-tertiary: #5d5d5d;
+}
+
+/* CABEÇALHO */
+header {
+  background-color: var(--text-secondary);
+  color: var(--primary);
+  padding: 40px;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.logo img {
+  position: absolute;
+  max-width: 150px;
+  top: 15px;
+  left: 20px;
+
+}
+
+header p {
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+/* GRID DE PRODUTOS */
+.container {
+  background-color: #dee2e9;
+  min-height: 60vh;
+  padding: 50px;
+}
+
+.products-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  display: block;
+  justify-content: center;
+
+}
+
+.card {
+  width: 31%;
+  display: inline-block;
+  margin: 1% 1%;
+  padding: 15px;
+}
+
+.product-image {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+#img-1 {
+  background-image: url('../img/Loja\ Lidiane/brother.jpg');
+}
+
+#img-2 {
+  background-image: url('../img/Loja\ Lidiane/digitacao.jpg');
+}
+
+#img-3 {
+  background-image: url('../img/Loja\ Lidiane/encadernacao.jpg');
+}
+
+#img-4 {
+  background-image: url('../img/Loja\ Lidiane/foto3x4.jpg');
+}
+
+#img-5 {
+  background-image: url('../img/Loja\ Lidiane/plastificacao.png');
+}
+
+#img-6 {
+  background-image: url('../img/Loja\ Lidiane/cartucho.jpg');
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: var(--primary);
+  border-left: 5px solid #eb1ccc9c;
+  padding: 7px;
+
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+
+a {
+
+  text-decoration: none;
+  font-size: 40px;
+  width: 30%;
+  text-align: center;
+  background-color: var(--text-secondary);
+  color: white;
+  padding-top: 10px;
+
+  border-radius: 10px;
+  transition: .5s;
+  display: inline-block;
+
+}
+
+a:hover {
+  background-color: #13a513af;
+}
+
+.zap {
+  text-align: center;
+}
+
+#fone {
+
+  position: relative;
+  top: -10px;
+
+}
+
+p {
+  color: #000;
+}
+
+.btn:hover {
+  background-color: #95989a;
+}
+
+/* RODAPÉ */
+footer {
+  background-color: var(--text-secondary);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.text {
+  color: #fff;
+}
+
+@media screen and (max-width: 450px) {
+
+  header {
+    font-size: 30px;
   }
 
-  :root {
-    --primary: #eb1ccc;
-    --secondary: #95989a;
-    --text-color: #fff;
-    --text-secondary: #000;
-    --text-tertiary: #5d5d5d;
-}
-  
-  /* CABEÇALHO */
-  header {
-    background-color: var(--text-secondary);
-    color: var(--primary);
-    padding: 40px;
-    text-align: center;
-    font-size: 30px;
-       
+  header p {
+    font-size: 15px;
+
   }
 
   .logo img {
     position: absolute;
-    max-width: 150px;
-    top: 15px;
-    left: 20px;
-    
+    width: 10px;
+    left: 0;
+    top: 35px;
   }
 
-   header p {
-    color: var(--text-color);
-    font-size: 20px;
-  }
-  
-  /* GRID DE PRODUTOS */
-  .container {
-    background-color: #dee2e9;
-    min-height: 60vh;
-    padding: 50px;
-  }
-  
   .products-container {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
+    flex-direction: column;
     display: flex;
-    display: block;
-    justify-content: center;
-  
   }
-  
-  .card {
-    width: 31%;
-    display: inline-block;
-    margin: 1% 1%;
-    padding: 15px;
-  }
-  
-  .product-image {
-    height: 300px;
-    width: 100%;
-    margin-bottom: 10px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 5px;
-    border: 1px solid #fff;
-  }
-  
-  #img-1 {
-    background-image: url('../img/Loja\ Lidiane/brother.jpg');
-  }
-  
-  #img-2 {
-    background-image: url('../img/Loja\ Lidiane/digitacao.jpg');
-  }
-  
-  #img-3 {
-    background-image: url('../img/Loja\ Lidiane/encadernacao.jpg');
-  }
-  
-  #img-4 {
-    background-image: url('../img/Loja\ Lidiane/foto3x4.jpg');
-  }
-  
-  #img-5 {
-    background-image: url('../img/Loja\ Lidiane/plastificacao.png');
-  }
-  
-  #img-6 {
-    background-image: url('../img/Loja\ Lidiane/cartucho.jpg');
-  }
-  
-  h2 {
-    margin-bottom: 10px;
-    color: var(--primary);
-    border-left: 5px solid #eb1ccc9c;
-    padding: 7px;
-    
-  }
-  
-  .card p {
-    margin-bottom: 10px;
-  }
-  
-  .bold {
-    font-weight: bold;
-  }
-  
-   
 
   a {
-       
-    text-decoration: none;
-    font-size: 40px;
-    width: 30%;
-    text-align: center;
-    background-color: var(--text-secondary);
-    color: white;
-    padding-top: 10px;
-    
-    border-radius: 10px;
-    transition: .5s;   
-    display: inline-block;
-            
+    font-size: 2em;
+    width: 100%;
   }
 
-  a:hover {
-    background-color: #13a513af;
+  .container {
+    padding: 10px;
   }
 
-  .zap {
-    text-align: center;
-  }
-
-  #fone {
-       
-    position: relative;
-    top: -10px;
-       
-  }
- 
-  p{
-    color: #000;
-  }
-  .btn:hover{
-    background-color: #95989a;
-  }
-  
-  /* RODAPÉ */
   footer {
-    background-color: var(--text-secondary);
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 10px;
+    font-size: .5em;
   }
-  
-  .text {
-    color: #fff;
-  }
-  
-  @media screen and (max-width: 450px){
-    
-    header {
-      font-size: 30px;
-    }
 
-    header p {
-      font-size: 15px;
+}
 
-    }
-    
-    .logo img {
-      position: absolute;
-      width: 10px;
-      left: 0;
-      top: 35px;          
-    }
+@media screen and (max-width: 768px) {
 
-    .products-container {
-    flex-direction: column;
-    display: flex;
-    }
-  
-    a {
-      font-size: 2em;
-      width: 100%;
-    }
-
-    .container {
-      padding: 10px;
-      }
-
-       footer {
-        padding: 10px;
-        font-size: .5em;
-      }
-     
-  }
-    
-  @media screen and (max-width: 768px){
- 
-   h1 {
+  h1 {
     font-size: 1em;
-   }
+  }
 
-   .logo img {
+  .logo img {
     position: absolute;
-     width: 50px;
-   }
+    width: 50px;
+  }
 
-   .products-container {
+  .products-container {
     flex-direction: column;
     display: flex;
-    }
-  
-    .card {
+  }
+
+  .card {
     width: 100%;
     display: inline-block;
-    }
-    a {
-      font-size: 2em;
-      width: 100%;
-    }
-     
   }
 
-  @media screen and (max-width: 1024px){
-    a {
-      width: 100%;
-    }
+  a {
+    font-size: 2em;
+    width: 100%;
   }
+
+}
+
+@media screen and (max-width: 1024px) {
+  a {
+    width: 100%;
+  }
+}

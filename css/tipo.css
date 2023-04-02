@@ -24,26 +24,31 @@ body {
   width: 800px;
   height: 400px;
   overflow: hidden;
-  
+
 }
-.slides{
+
+.slides {
   width: 400%;
   height: 400px;
   display: flex;
-  
+
 }
+
 .slides input {
   display: none;
 }
+
 .slide {
   width: 25%;
   position: relative;
   transition: 2s;
-  
+
 }
+
 .slide img {
   width: 800px;
 }
+
 .manual-navigation {
   position: absolute;
   width: 800px;
@@ -51,6 +56,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .manual-btn {
   border: 2px solid #fff;
   padding: 5px;
@@ -58,34 +64,43 @@ body {
   cursor: pointer;
   transition: 1s;
 }
-.manual-btn:not(:last-child){
+
+.manual-btn:not(:last-child) {
   margin-right: 40px;
 }
+
 .manual-btn:hover {
   background-color: #fff;
 }
-#radio1:checked ~ .first {
+
+#radio1:checked~.first {
   margin-left: 0;
 }
-#radio2:checked ~ .first{
+
+#radio2:checked~.first {
   margin-left: -25%;
 }
-#radio3:checked ~ .first{
+
+#radio3:checked~.first {
   margin-left: -25%;
 }
-#radio3:checked ~ .first{
+
+#radio3:checked~.first {
   margin-left: -50%;
 }
-#radio4:checked ~ .first{
+
+#radio4:checked~.first {
   margin-left: -75%;
 }
-.navigation-auto div{
+
+.navigation-auto div {
   border: 2px solid #20a6ff;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
 }
+
 .navigation-auto {
   position: absolute;
   width: 800px;
@@ -93,19 +108,24 @@ body {
   display: flex;
   justify-content: center;
 }
-.navigation-auto div:not(:Last-child){
+
+.navigation-auto div:not(:Last-child) {
   margin-right: 40px;
 }
-#radio1:checked ~ .navigation-auto .auto-btn1{
+
+#radio1:checked~.navigation-auto .auto-btn1 {
   background-color: #fff;
 }
-#radio2:checked ~ .navigation-auto .auto-btn2{
+
+#radio2:checked~.navigation-auto .auto-btn2 {
   background-color: #fff;
 }
-#radio3:checked ~ .navigation-auto .auto-btn3{
+
+#radio3:checked~.navigation-auto .auto-btn3 {
   background-color: #fff;
 }
-#radio4:checked ~ .navigation-auto .auto-btn4{
+
+#radio4:checked~.navigation-auto .auto-btn4 {
   background-color: #fff;
 }
 
@@ -130,7 +150,7 @@ body {
   display: inline-block;
   margin: 1% 1%;
   padding: 15px;
-  
+
 }
 
 .product-image {
@@ -141,8 +161,8 @@ body {
   background-size: cover;
   border-radius: 5px;
   border: 1px solid #fff;
-  
-  
+
+
 }
 
 #img-1 {
@@ -174,7 +194,7 @@ h2 {
   color: #1c8eeb;
   border-left: 5px solid rgb(10, 10, 133);
   padding: 7px;
-  
+
 }
 
 .card p {
@@ -198,17 +218,18 @@ h2 {
   transition: .5s;
 }
 
-p{
+p {
   color: #000;
 }
-.btn:hover{
+
+.btn:hover {
   background-color: #95989a;
 }
 
 /* RODAPÉ */
 footer {
   background-color: #1c8eeb;
-  
+
   text-align: center;
   padding: 60px;
 }
@@ -217,7 +238,7 @@ footer {
   color: #fff;
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
 
   header {
     font-size: 1.2rem;
@@ -227,65 +248,65 @@ footer {
   .products-container {
     flex-direction: column;
     display: flex;
-    }
-
- 
-    a {
-      font-size: 2em;
-      width: 100%;
-    }
-
-     .container {
-      padding: 1px;
-      padding-top: 25px;
-                       
-    }
-    
-    .slide{
-      width: 700px;
-                    
-    }
-   
-    .slider {
-      width: 400px;
-      height: 300px;
-      
-      
-    }
-
-    .btn {
-      padding: 1px;
-      width: 100%;
-      
-    }
-
-    footer {
-      padding: 10px;
-      font-size: .5em;
-    }
-    
-  
-    }
+  }
 
 
+  a {
+    font-size: 2em;
+    width: 100%;
+  }
 
-@media screen and (max-width: 768px){
-   
- .products-container {
-  flex-direction: column;
-  display: flex;
+  .container {
+    padding: 1px;
+    padding-top: 25px;
+
+  }
+
+  .slide {
+    width: 700px;
+
+  }
+
+  .slider {
+    width: 400px;
+    height: 300px;
+
+
+  }
+
+  .btn {
+    padding: 1px;
+    width: 100%;
+
+  }
+
+  footer {
+    padding: 10px;
+    font-size: .5em;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  .products-container {
+    flex-direction: column;
+    display: flex;
   }
 
   .container {
     margin-top: -1.5em;
-    
-    }
+
+  }
 
   .card {
-  width: 100%;
-  display: inline-block;
+    width: 100%;
+    display: inline-block;
   }
-   
+
   .slider {
     width: 700px;
   }
@@ -293,5 +314,5 @@ footer {
   .slide img {
     width: 100%;
   }
-  
+
 }
