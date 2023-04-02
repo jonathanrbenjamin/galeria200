@@ -20,7 +20,7 @@ header {
   padding: 40px;
   text-align: center;
   font-size: 30px;
-
+  
 }
 
 .logo img {
@@ -58,6 +58,11 @@ header p {
   display: inline-block;
   margin: 1% 1%;
   padding: 15px;
+  box-shadow: 0 0 10px black;
+}
+
+.card:hover {
+  background-color: #8f919291;
 }
 
 .product-image {

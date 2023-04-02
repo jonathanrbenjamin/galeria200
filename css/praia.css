@@ -191,7 +191,9 @@ footer {
 
   .logo img {
     position: absolute;
-    top: 40px;
+    max-width: 18%;
+    top: 5%;
+    left: 0%;
         
     
   }
