@@ -13,6 +13,7 @@ header {
   text-align: center;
   font-size: 25px;
   margin-bottom: 20px;
+  box-shadow: 0 0 10px black;
 }
 
 body {
@@ -24,6 +25,7 @@ body {
   width: 800px;
   height: 400px;
   overflow: hidden;
+  box-shadow: 0 0 10px black;
 
 }
 
@@ -143,6 +145,7 @@ body {
   display: flex;
   display: block;
   justify-content: center;
+  box-shadow: 0 0 10px black;
 }
 
 .card {
@@ -150,7 +153,12 @@ body {
   display: inline-block;
   margin: 1% 1%;
   padding: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+ 
+}
 
+.card:hover {
+  background-color: #d9dcdfd3;
 }
 
 .product-image {
