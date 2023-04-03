@@ -22,7 +22,7 @@ body {
 
 .slider {
   margin: 0 auto;
-  width: 800px;
+  width: 1200px;
   height: 400px;
   overflow: hidden;
   box-shadow: 0 0 10px black;
@@ -48,7 +48,7 @@ body {
 }
 
 .slide img {
-  width: 800px;
+  width: 1200px;
 }
 
 .manual-navigation {
@@ -154,7 +154,7 @@ body {
   margin: 1% 1%;
   padding: 15px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
- 
+
 }
 
 .card:hover {
@@ -246,7 +246,7 @@ footer {
   color: #fff;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 320px) {
 
   header {
     font-size: 1.2rem;
@@ -258,28 +258,13 @@ footer {
     display: flex;
   }
 
+  .slides {
+    width: 350%;
+    
+  }
 
-  a {
-    font-size: 2em;
+  body {
     width: 100%;
-  }
-
-  .container {
-    padding: 1px;
-    padding-top: 25px;
-
-  }
-
-  .slide {
-    width: 700px;
-
-  }
-
-  .slider {
-    width: 400px;
-    height: 300px;
-
-
   }
 
   .btn {
@@ -315,8 +300,8 @@ footer {
     display: inline-block;
   }
 
-  .slider {
-    width: 700px;
+  body {
+    width: 100%;
   }
 
   .slide img {
