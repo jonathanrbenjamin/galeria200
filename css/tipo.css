@@ -259,13 +259,17 @@ footer {
   }
 
   .slides {
-    width: 350%;
+    
     
   }
 
-  body {
-    width: 100%;
+  .slider {
+    width: 300px;
+    height: 225px;
+    
+            
   }
+
 
   .btn {
     padding: 1px;
