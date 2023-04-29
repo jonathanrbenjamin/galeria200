@@ -43,7 +43,7 @@ body {
 .slide {
   width: 25%;
   position: relative;
-  transition: 2s;
+  transition: 1s;
 
 }
 
@@ -265,10 +265,18 @@ footer {
   }
 
   .btn {
-    padding: 1px;
+    
     width: 100%;
-
+    
+    
+    
+    background-color: var(--text-secondary);
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    
   }
+  
 
   footer {
     padding: 10px;
@@ -288,11 +296,15 @@ footer {
   .products-container {
     flex-direction: column;
     display: flex;
+      
+    
   }
+  
 
   .slider {
     width: 300px;
     height: 225px;
+   
                
   }
 
@@ -339,60 +351,14 @@ footer {
     font-size: .5em;
   }
 
-
 }
 
 
 @media screen and (max-width: 768px) {
 
-  .products-container {
-    flex-direction: column;
-    display: flex;
-  }
-
-  .container {
-    margin-top: -1.5em;
-
-  }
-
   .slider {
-    width: 300px;
-    height: 225px;
-               
-  }
-
-
-  .card {
-    width: 100%;
-    display: inline-block;
-  }
-
-  body {
-    width: 100%;
-  }
-
-  .slide img {
-    width: 100%;
-  }
-
-}
-
-@media screen and (max-width: 1024px) {
-
-  .products-container {
-    flex-direction: column;
-    display: flex;
-  }
-
-  .container {
-    margin-top: -1.5em;
-
-  }
-
-  .slider {
-    width: 300px;
-    height: 225px;
-               
+    width: 90%;
+                   
   }
 
 
