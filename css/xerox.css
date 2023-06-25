@@ -99,6 +99,10 @@ header p {
   background-image: url('../img/Loja\ Lidiane/cartucho.jpg');
 }
 
+#img-7 {
+  background-image: url('../img/Loja\ Lidiane/foto1.jpg');
+}
+
 h2 {
   margin-bottom: 10px;
   color: var(--primary);
