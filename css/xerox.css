@@ -100,11 +100,15 @@ header p {
 }
 
 #img-7 {
-  background-image: url('../img/Loja\ Lidiane/impressao5.jpg');
+  background-image: url('../img/Loja\ Lidiane/impG.webp');
 }
 
 #img-8 {
   background-image: url('../img/Loja\ Lidiane/brother.jpg');
+}
+
+#img-9 {
+  background-image: url('../img/Loja\ Lidiane/fotoG.jpg');
 }
 
 h2 {
