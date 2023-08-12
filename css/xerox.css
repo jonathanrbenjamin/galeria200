@@ -34,8 +34,8 @@ header {
 
 .logo2 img {
   position: absolute;
-  max-width: 50px;
-  top: 30px;
+  max-width: 150px;
+  top: 15px;
   right: 5px;
   
 
@@ -210,7 +210,7 @@ footer {
   color: #fff;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 375px) {
 
   header {
     font-size: 30px;
@@ -223,10 +223,18 @@ footer {
 
   .logo img {
     position: absolute;
-    width: 10px;
-    left: 0;
-    top: 35px;
+    width: 50px;
+    left: 5px;
+    margin-top: 10px;
   }
+
+  .logo2 img {
+    position: absolute;
+    width: 50px;
+    right: 10px;
+    margin-top: 10px;
+  }
+
 
   .products-container {
     flex-direction: column;
@@ -249,6 +257,54 @@ footer {
 
 }
 
+@media screen and (max-width: 425px) {
+
+  header {
+    font-size: 30px;
+  }
+
+  header p {
+    font-size: 15px;
+
+  }
+
+  .logo img {
+    position: absolute;
+    width: 50px;
+    left: 5px;
+    margin-top: 10px;
+  }
+
+  .logo2 img {
+    position: absolute;
+    width: 50px;
+    right: 10px;
+    margin-top: 10px;
+  }
+
+
+  .products-container {
+    flex-direction: column;
+    display: flex;
+  }
+
+  a {
+    font-size: 2em;
+    width: 100%;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  footer {
+    padding: 10px;
+    font-size: .5em;
+  }
+
+}
+
+
 @media screen and (max-width: 768px) {
 
   h1 {
@@ -257,7 +313,16 @@ footer {
 
   .logo img {
     position: absolute;
-    width: 50px;
+    max-width: 100px;
+    left: 10;
+    top: 20px;
+  }
+
+  .logo2 img {
+    position: absolute;
+    max-width: 100px;
+    right: 10px;
+    top: 15px;
   }
 
    .products-container {
