@@ -210,6 +210,8 @@ footer {
   color: #fff;
 }
 
+
+
 @media screen and (max-width: 375px) {
 
   header {
@@ -225,7 +227,7 @@ footer {
     position: absolute;
     width: 50px;
     left: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .logo2 img {
@@ -260,7 +262,7 @@ footer {
 @media screen and (max-width: 425px) {
 
   header {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   header p {
@@ -271,8 +273,8 @@ footer {
   .logo img {
     position: absolute;
     width: 50px;
-    left: 5px;
-    margin-top: 10px;
+    left: 10px;
+    margin-top: 20px;
   }
 
   .logo2 img {
@@ -308,7 +310,7 @@ footer {
 @media screen and (max-width: 768px) {
 
   h1 {
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   .logo img {
